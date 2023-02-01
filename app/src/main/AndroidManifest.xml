@@ -12,6 +12,9 @@
         android:theme="@style/Theme.NFLPlayerStatLookup"
         tools:targetApi="31">
         <activity
+            android:name=".PlayerEntryActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
