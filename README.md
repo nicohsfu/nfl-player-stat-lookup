@@ -13,4 +13,4 @@ To create an app that combines my interests (football) and my development skills
 
 ## Demo
 
-![demo of the app](linkHere)
+![demo of the app](https://github.com/nicohsfu/nfl-player-stat-lookup/blob/main/demo/demo-nfl-player-stat-lookup.gif?raw=true)
