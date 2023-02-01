@@ -34,13 +34,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onActivityResult(int requestedCode, int resultCode, Intent data) {
         if (requestedCode == REQUEST_WORD_ENTRY) {
             if (resultCode == RESULT_OK) {
-                if (data.hasExtra("WORD")) {
+                if (data.hasExtra("FIRSTNAME") && data.hasExtra("LASTNAME")) {
                     // extracts the user-inputted words (i.e. the values) based on their keys
                     String player_first_name = data.getExtras().getString("FIRSTNAME");
                     String player_last_name = data.getExtras().getString("LASTNAME");
 
                     // adds the user-inputted word to the statistics URL in order to "look it up"
-                    Uri webpage = Uri.parse("https://www.nfl.com/players/russell-wilson/stats/career" + player_first_name + "-" + player_last_name);
+                    Uri webpage = Uri.parse("https://www.nfl.com/players/" + player_first_name + "-" + player_last_name + "/stats/career");
 
                     // implicit Intent - opens the webpage as determined above
                     Intent webIntent = new Intent(Intent.ACTION_VIEW, webpage);

@@ -26,15 +26,36 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/playerEntryTextView"
+                android:id="@+id/playerFirstNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/playerEntryTextView"
+                android:text="@string/playerFirstNameTextView"
                 android:textSize="18dp" />
 
             <EditText
-                android:id="@+id/wordEntryEditText"
+                android:id="@+id/playerFirstNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/playerLastNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/playerLastNameTextView"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/playerLastNameEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

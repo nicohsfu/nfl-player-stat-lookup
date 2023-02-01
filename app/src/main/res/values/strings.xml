@@ -2,6 +2,7 @@
     <string name="app_name">NFL Player Stat Lookup</string>
     <string name="headerTextView">National Football League \n Statistics Database</string>
     <string name="inputPlayerNameButton">Search Player</string>
-    <string name="playerEntryTextView">Type player\'s full name: </string>
+    <string name="playerFirstNameTextView">First Name: </string>
+    <string name="playerLastNameTextView">Last Name: </string>
     <string name="playerEntryButton">Find player stats</string>
 </resources>
